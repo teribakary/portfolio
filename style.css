@@ -1,0 +1,42 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.navbar {
+    background: #0a3d62;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #0a3d62, #1e90ff);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0a3d62;
+}
+
+.icon {
+    font-size: 40px;
+    color: #0a3d62;
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #0a3d62;
+    color: white;
+    padding: 15px;
+}
