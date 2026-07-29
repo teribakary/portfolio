@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bakary Teri | Réseaux & Systèmes Informatiques</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Portfolio professionnel de Bakary Teri, Ingenieur en Réseaux et Systèmes Informatiques.">
+    <meta name="author" content="Bakary TERI">
+
+    <!-- Open Graph / LinkedIn -->
+    <meta property="og:title" content="Bakary Teri | Portfolio professionnel">
+    <meta property="og:description" content="Ingenieur en Réseaux et Systèmes Informatiques – Projets & Blog technique">
+    <meta property="og:image" content="images/preview.jpg">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Bakary</div>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="darkModeBtn">🌙</button></li>
+        </ul>
+    </nav>
+
+    <!-- HERO PREMIUM -->
+    <header class="hero">
+        <div class="hero-text" data-aos="fade-right">
+            <h1>Bakary <span>TERI</span></h1>
+            <p>Ingenieur en Réseaux et Systèmes Informatiques</p>
+
+            <a href="CVTERI.pdf" download onclick="gtag('event','download_cv')" class="cv-btn">📄 Télécharger
+                mon CV</a>
+        </div>
+
+        <div class="hero-img" data-aos="fade-left">
+            <!-- 🔴 REMPLACER PAR TA PHOTO -->
+            <img src="images/TERI.jpg" alt="Photo Bakary TERI" loading="lazy">
+        </div>
+    </header>
+
+    <section id="about" data-aos="fade-up">
+        <div class="about-container">
+
+            <!-- TEXTE (ton texte reste identique) -->
+            <div class="about-text">
+                <h2>À propos</h2>
+
+                <p>
+                    Ingénieur en Réseaux et Systèmes Informatiques, je suis spécialisé dans la conception,
+                    l’installation et l’administration d’infrastructures informatiques fiables et sécurisées.
+                </p>
+
+                <p>
+                    Au cours de ma formation et de mes projets, j’ai acquis une solide expérience dans le
+                    déploiement de réseaux physiques, la virtualisation des systèmes, la configuration de serveurs
+                    et l’optimisation des services réseau.
+                </p>
+
+                <p>
+                    Passionné par les technologies, je m’investis continuellement dans l’apprentissage et la mise en
+                    pratique afin de proposer des solutions performantes, adaptées aux besoins réels des organisations.
+                </p>
+            </div>
+
+            <!-- PARTIE VISUELLE -->
+            <div class="about-highlights">
+
+                <div class="highlight">
+                    🔧 Déploiement d'infrastructures réseau
+                </div>
+
+                <div class="highlight">
+                    🖥️ Virtualisation & administration serveurs
+                </div>
+
+                <div class="highlight">
+                    🔐 Sécurisation & optimisation des services
+                </div>
+
+                <div class="highlight">
+                    📈 Amélioration continue & veille technologique
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2>Compétences Techniques</h2>
+
+        <div class="skills-container">
+
+            <!-- Réseaux -->
+            <div class="skill-category">
+                <h3>🌐 Réseaux & Infrastructure</h3>
+
+                <div class="skill">
+                    <span>Installation de réseaux physiques (LAN, câblage, brassage)</span>
+                    <div class="progress">
+                        <div style="width:95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Configuration équipements (Switch, Routeur, Firewall)</span>
+                    <div class="progress">
+                        <div style="width:90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Administration Réseau</span>
+                    <div class="progress">
+                        <div style="width:85%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Virtualisation -->
+            <div class="skill-category">
+                <h3>🖥️ Systèmes & Virtualisation</h3>
+
+                <div class="skill">
+                    <span>Installation & Administration Serveurs Linux / Windows</span>
+                    <div class="progress">
+                        <div style="width:90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Virtualisation (Proxmox, VM, stockage)</span>
+                    <div class="progress">
+                        <div style="width:88%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Services Réseau (Postfix, DNS, etc.)</span>
+                    <div class="progress">
+                        <div style="width:85%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Développement -->
+            <div class="skill-category">
+                <h3>💻 Développement & Base de données</h3>
+
+                <div class="skill">
+                    <span>HTML / CSS / JavaScript</span>
+                    <div class="progress">
+                        <div style="width:70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>MySQL</span>
+                    <div class="progress">
+                        <div style="width:75%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="progress">
+                        <div style="width:72%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>C</span>
+                    <div class="progress">
+                        <div style="width:65%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="projects" data-aos="zoom-in">
+        <h2>Projets</h2>
+        <div class="gallery">
+            <div class="card">
+                <img src="images/project1.jpg" loading="lazy">
+                <h3>Gestion de stock</h3>
+            </div>
+            <div class="card">
+                <img src="images/project2.jpg" loading="lazy">
+                <h3>Serveur Mail sécurisé</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact WhatsApp</h2>
+
+        <form onsubmit="sendWhatsApp(); return false;">
+            <input type="text" id="name" placeholder="Votre nom" required>
+            <input type="email" id="email" placeholder="Votre email" required>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer via WhatsApp</button>
+        </form>
+
+        <a href="https://linkedin.com/in/tonprofil" target="_blank" onclick="gtag('event','linkedin_click')">
+            💼 Voir mon LinkedIn
+        </a>
+    </section>
+
+    <footer>© 2026 Bakary Teri</footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1000, once: true });</script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

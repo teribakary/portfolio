@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog | Bakary Teri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Blog Technique</h1>
+        <p>Réseaux • Linux • Sécurité</p>
+    </header>
+
+    <section>
+        <article class="post">
+            <h2>Configurer un serveur mail sécurisé avec Postfix et Dovecot</h2>
+            <p>
+                Dans cet article, nous verrons comment configurer un serveur mail sécurisé
+                en utilisant Postfix pour l’envoi des mails et Dovecot pour la réception,
+                avec TLS et authentification.
+            </p>
+
+            <h3>Étapes principales :</h3>
+            <ul>
+                <li>Installation des paquets</li>
+                <li>Configuration DNS</li>
+                <li>Sécurisation TLS</li>
+                <li>Tests clients</li>
+            </ul>
+
+            <p>
+                Cette configuration est idéale pour un environnement pédagogique ou professionnel.
+            </p>
+        </article>
+
+        <!-- DISQUS -->
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+                this.page.url = window.location.href;
+                this.page.identifier = "postfix-dovecot";
+            };
+            (function () {
+                var d = document, s = d.createElement('script');
+                s.src = 'https://bakaryteri-portfolio.disqus.com/embed.js';
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    </section>
+
+</body>
+
+</html>
